@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.16.1.2.exe" version="1.0">
+  This file is intended to be loaded by Logisim http://logisim.altervista.org
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Splitter">
+      <a name="fanout" val="2"/>
+      <a name="incoming" val="2"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#TTL" name="2"/>
+  <lib desc="#Plexers" name="3"/>
+  <lib desc="#Arithmetic" name="4"/>
+  <lib desc="#Memory" name="5"/>
+  <lib desc="#I/O" name="6"/>
+  <lib desc="#Base" name="7">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="Dialog plain 12"/>
+      <a name="color" val="#000000"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="7" map="Button2" name="Poke Tool"/>
+    <tool lib="7" map="Button3" name="Menu Tool"/>
+    <tool lib="7" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="7" name="Poke Tool"/>
+    <tool lib="7" name="Edit Tool"/>
+    <sep/>
+    <tool lib="7" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="Dialog plain 12"/>
+      <a name="color" val="#000000"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="Dialog plain 12"/>
+    <a name="clabelcolor" val="#000000"/>
+    <wire from="(190,350)" to="(380,350)"/>
+    <wire from="(260,310)" to="(260,380)"/>
+    <wire from="(180,380)" to="(180,390)"/>
+    <wire from="(410,390)" to="(530,390)"/>
+    <wire from="(510,250)" to="(510,270)"/>
+    <wire from="(330,260)" to="(330,340)"/>
+    <wire from="(240,340)" to="(240,360)"/>
+    <wire from="(410,310)" to="(510,310)"/>
+    <wire from="(410,270)" to="(510,270)"/>
+    <wire from="(180,160)" to="(540,160)"/>
+    <wire from="(190,350)" to="(190,380)"/>
+    <wire from="(140,220)" to="(140,380)"/>
+    <wire from="(520,310)" to="(540,310)"/>
+    <wire from="(510,250)" to="(540,250)"/>
+    <wire from="(230,270)" to="(380,270)"/>
+    <wire from="(170,400)" to="(380,400)"/>
+    <wire from="(340,260)" to="(340,300)"/>
+    <wire from="(170,340)" to="(190,340)"/>
+    <wire from="(320,260)" to="(330,260)"/>
+    <wire from="(180,380)" to="(190,380)"/>
+    <wire from="(220,380)" to="(230,380)"/>
+    <wire from="(240,280)" to="(240,340)"/>
+    <wire from="(320,380)" to="(380,380)"/>
+    <wire from="(190,320)" to="(380,320)"/>
+    <wire from="(570,360)" to="(570,370)"/>
+    <wire from="(160,190)" to="(540,190)"/>
+    <wire from="(330,340)" to="(380,340)"/>
+    <wire from="(260,310)" to="(380,310)"/>
+    <wire from="(130,260)" to="(180,260)"/>
+    <wire from="(410,350)" to="(520,350)"/>
+    <wire from="(190,320)" to="(190,340)"/>
+    <wire from="(510,280)" to="(510,310)"/>
+    <wire from="(340,260)" to="(380,260)"/>
+    <wire from="(340,300)" to="(380,300)"/>
+    <wire from="(520,310)" to="(520,350)"/>
+    <wire from="(230,380)" to="(260,380)"/>
+    <wire from="(510,280)" to="(540,280)"/>
+    <wire from="(180,160)" to="(180,260)"/>
+    <wire from="(230,270)" to="(230,380)"/>
+    <wire from="(220,340)" to="(240,340)"/>
+    <wire from="(140,220)" to="(540,220)"/>
+    <wire from="(330,260)" to="(340,260)"/>
+    <wire from="(130,380)" to="(140,380)"/>
+    <wire from="(190,380)" to="(200,380)"/>
+    <wire from="(190,340)" to="(200,340)"/>
+    <wire from="(180,260)" to="(320,260)"/>
+    <wire from="(240,280)" to="(380,280)"/>
+    <wire from="(240,360)" to="(380,360)"/>
+    <wire from="(530,340)" to="(530,390)"/>
+    <wire from="(180,390)" to="(380,390)"/>
+    <wire from="(320,260)" to="(320,380)"/>
+    <wire from="(530,340)" to="(540,340)"/>
+    <wire from="(170,340)" to="(170,400)"/>
+    <wire from="(530,130)" to="(540,130)"/>
+    <wire from="(140,380)" to="(180,380)"/>
+    <wire from="(160,190)" to="(160,340)"/>
+    <wire from="(130,340)" to="(160,340)"/>
+    <wire from="(160,340)" to="(170,340)"/>
+    <comp lib="1" loc="(220,380)" name="NOT Gate"/>
+    <comp lib="7" loc="(946,189)" name="Text">
+      <a name="text" val="S0"/>
+    </comp>
+    <comp lib="1" loc="(410,350)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="label" val="D2"/>
+    </comp>
+    <comp lib="7" loc="(955,157)" name="Text">
+      <a name="text" val="Dados"/>
+    </comp>
+    <comp lib="1" loc="(220,340)" name="NOT Gate"/>
+    <comp lib="6" loc="(530,130)" name="Button"/>
+    <comp lib="0" loc="(130,340)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="S0"/>
+    </comp>
+    <comp lib="7" loc="(947,310)" name="Text">
+      <a name="text" val="D2"/>
+    </comp>
+    <comp lib="6" loc="(540,130)" name="Digital Oscilloscope">
+      <a name="inputs" val="7"/>
+      <a name="nState" val="12"/>
+      <a name="frontlines" val="falling"/>
+    </comp>
+    <comp lib="7" loc="(947,339)" name="Text">
+      <a name="text" val="D3"/>
+    </comp>
+    <comp lib="1" loc="(410,390)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="label" val="D3"/>
+    </comp>
+    <comp lib="1" loc="(410,270)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="label" val="D0"/>
+    </comp>
+    <comp lib="0" loc="(130,380)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="S1"/>
+    </comp>
+    <comp lib="6" loc="(570,370)" name="Button">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="7" loc="(947,250)" name="Text">
+      <a name="text" val="D0"/>
+    </comp>
+    <comp lib="7" loc="(946,219)" name="Text">
+      <a name="text" val="S1"/>
+    </comp>
+    <comp lib="7" loc="(946,279)" name="Text">
+      <a name="text" val="D1"/>
+    </comp>
+    <comp lib="0" loc="(130,260)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Dados"/>
+    </comp>
+    <comp lib="1" loc="(410,310)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="label" val="D1"/>
+    </comp>
+  </circuit>
+</project>
